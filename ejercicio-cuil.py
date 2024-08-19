@@ -87,10 +87,10 @@ def calCuil(d,s):
         numSexo = 20
         sS = str(numSexo)
     if s == "F"or"f":
-        numSexo = 20
+        numSexo = 27
         sS = str(numSexo)
     if s == "E"or"e":
-        numSexo = 20
+        numSexo = 30
         sS = str(numSexo)
 
     sexMasDni = sS+dni
