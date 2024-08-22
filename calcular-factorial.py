@@ -65,14 +65,73 @@
 # -------------------------
 # Pasado a limpio
 
-mensaje=  input("igrese un numero: ")
-numero_factorial=  int(mensaje)
+# mensaje=  input("igrese un numero: ")
+# numero_factorial=  int(mensaje)
 
-iterador = 1
-factorial_del_numero = 1
+# iterador = 1
+# factorial_del_numero = 1
 
-while iterador < numero_factorial:
-    factorial_del_numero = factorial_del_numero * numero_factorial
-    numero_factorial -= iterador
+# while iterador < numero_factorial:
+#     factorial_del_numero = factorial_del_numero * numero_factorial
+#     numero_factorial -= iterador
 
-print(factorial_del_numero)
+# print(factorial_del_numero)
+
+# y = 0
+# factorial_del_numero = 1
+# def calcular_factorial(x):
+
+
+    # seguimos = True
+    # letra_de_confirmacion = str(x)
+    
+    # if letra_de_confirmacion == "S" or "s":
+    #     seguimos = True
+    # else:
+    #     seguimos = False
+        
+    # mensaje = x #input("igrese un numero: ")
+
+    # if type(numero_factorial) == 'str' :
+    #     print("Nos re vimos amigo")
+    #     return
+    # else:
+    # iterador = 1
+    # numero_factorial =  int(x)
+    
+    # while iterador < numero_factorial:
+    # factorial_del_numero = factorial_del_numero * numero_factorial
+    # numero_factorial -= iterador
+
+
+    
+    #CONDICION PARA QUE SALGA DE LA FUNCION
+    # if numero_factorial == 1:
+        # return
+    
+    # calcular_factorial(numero_factorial)
+    
+    # y += 1
+    # if y == numero_factorial:
+    #     return
+    
+
+# calcular_factorial(input("igrese un numero: "))
+# print(factorial_del_numero)
+
+
+#POR SESOLVER
+# ---------------------------
+# cualquier_numero = 5
+
+# def factorial(numero):
+#     if numero > 1:
+#         numero * factorial(cualquier_numero - 1 )
+#         factorial(cualquier_numero - 1)
+#     else:
+#         return 1
+
+# factorial(cualquier_numero)
+# print(factorial(cualquier_numero))
+
+# ---------------------------
