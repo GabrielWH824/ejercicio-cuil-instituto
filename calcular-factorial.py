@@ -123,15 +123,32 @@
 #POR SESOLVER
 # ---------------------------
 # cualquier_numero = 5
-
-# def factorial(numero):
+# x = 1
+# def factorial(numero,x1):
+#     a = numero
 #     if numero > 1:
-#         numero * factorial(cualquier_numero - 1 )
-#         factorial(cualquier_numero - 1)
+#         x1 = numero * x1 
+#         factorial(a - 1, x1)
 #     else:
-#         return 1
+#         return print(x1)
+#         # print(x1)
 
-# factorial(cualquier_numero)
-# print(factorial(cualquier_numero))
+# factorial(cualquier_numero, x)
+
+
 
 # ---------------------------
+#PASADO A LIMPIO
+numero = 5 #Vamos a calcular 5! (por ejemplo)
+multiplicador = 1 #Con esta variable vamos a multipicar por el 'numero'
+
+def factorial(x, y):
+    mult = x #Aqui guardaremos 5! -> 4! -> 3!
+    if x > 1: # y entrara en este bucle hasta que sea 1!
+        y = x * y # en el primer bucle seria >> 5 = 5! * 1 >> 20 = 4! * 5 >> 60 = 3! * 20...
+        factorial(mult - 1, y) #Aqui la vuelvo a llamar con 'y' siendo el resultado de las multiplicaciones
+        # & mult se va a ir reduciendo en -1
+    else:
+        return print(y)
+
+factorial(numero, multiplicador)
