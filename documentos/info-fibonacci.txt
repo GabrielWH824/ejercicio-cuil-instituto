@@ -1,0 +1,19 @@
+-Hace una funcion que ejecute "HASTA CIERTO NUMERO" la sucesion de fibonacci
+
+-caso1: 
++Pasarle 2 valores a la funcion, uno para que inicie la sucesion y el otro valor como cierre del 
+bucle, por ejemplo, inicio pasando le (0, 55),
+
++iniciara multiplicando 0+1 -> 1+1 -> 1+2 -> 2+3 -> 3+5 -> 5+8 -> 8+13 ... hasta que la suma sea 
+igual o mayor que el segundo parametro, es este caso 'x + y >= 55' -> sale y termina de ejecutar 
+
+El caso base en este caso es sumar 0 por el siguiente (0+1)
+
+Luego guardarlo y sumarle el anterior (1+1)
+
+Luego lo guardo y lo sumo por el anterior (guardo 2) y sumo por el anterior (2+1) == suma + num_anterior
+
+y asi sucesivamente 
+
+IMPORTANTE !!!!!!!!!!!!!!
+EL/LOS CASOS BASES NO DEVUELVEN LAS FUNCIONES, SINO UN VALOR PARA CORTAR EL BUCLE.
